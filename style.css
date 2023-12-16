@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #282C34;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.timer-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.timer-item {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #282C34;
+}
+
+.timer-item::after {
+    font-size: 12px;
+    content: 'text';
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.timer-item:nth-child(1)::after {
+    content: 'days';
+}
+
+.timer-item:nth-child(2)::after {
+    content: 'hours';
+}
+
+.timer-item:nth-child(3)::after {
+    content: 'minutes';
+}
+
+.timer-item:nth-child(4)::after {
+    content: 'seconds';
+}
