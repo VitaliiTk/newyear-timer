@@ -5,6 +5,8 @@
 body {
     margin: 0;
     background-color: #282C34;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
     min-height: 100dvh;
     display: flex;
     justify-content: center;
