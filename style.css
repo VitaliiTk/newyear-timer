@@ -50,6 +50,7 @@ img {
     align-items: center;
     font-weight: 700;
     color: #282C34;
+    padding: 30px;
 }
 
 .timer-item::after {

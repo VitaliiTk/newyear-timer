@@ -1,6 +1,6 @@
 const timerItems = document.querySelectorAll('.timer-item');
 const timerBox = document.querySelector('.timer-box');
-let dateFinish = new Date('Jan 01 2024 00:00:00');
+let dateFinish = new Date('Jan 01 2025 00:00:00');
 
 
 function counts() {
